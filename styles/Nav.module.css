@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 1px 1px 2px #f1f1f1;
+}
+.spanDesign {
+  color: #3498db;
+  margin-right: 4px;
+}
+.navMenu {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  /* margin: 0px; */
+  margin: 15px 0px;
+}
+.menuItem {
+  margin-right: 15px;
+  color: #bdc3c7;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navBrandSection {
+  display: flex;
+  flex: 0.4;
+  font-size: 19px;
+  color: #34495e;
+  font-weight: 800;
+  padding-left: 10px;
+}
+.navitemSection {
+  display: flex;
+  flex: 0.6;
+}
