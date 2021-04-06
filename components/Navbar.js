@@ -17,7 +17,7 @@ const Navbar = () => {
           </li>
           <li className={styles.menuItem}>
             {" "}
-            <Link href="/">Home</Link>
+            <Link href="/feed">FEED</Link>
           </li>
         </ul>
       </div>
